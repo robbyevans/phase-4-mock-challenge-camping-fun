@@ -29,6 +29,7 @@ function NewCamper({ onAddCamper }) {
         r.json().then((err) => setErrors(err.errors));
       }
     });
+    console.log(errors);
   }
 
   return (
